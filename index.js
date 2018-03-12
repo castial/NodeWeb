@@ -19,7 +19,7 @@ app.use(async (ctx, next) => {
 
 // response
 app.use(async ctx => {
-    ctx.body = 'Hello World';
+    ctx.body = 'Hello World, Koa!';
 });
 
 app.listen(3000);
